@@ -17,7 +17,7 @@ export const translations_form = {
 		indexPattern: "Podaj poprawny nr indeksu składający się z 6 cyfr",
 	},
 	en: {
-		header: "MaturMath",
+		header: "MaturMatt",
 		welcome: "Welcome, graduate! To use the platform, you must log in.",
 		login: "Login",
 		username: "Username",
