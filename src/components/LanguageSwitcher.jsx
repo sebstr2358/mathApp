@@ -16,7 +16,7 @@ const LanguageSwitcher = ({ onLanguageChange }) => {
 	};
 
 	const containerClasses =
-		"absolute flex flex-col gap-2 justify-around items-center mb-5 px-12 pb-8 pt-6 rounded-xl border-2 border-solid border-black bg-stone-400 z-10";
+		"w-48 md:w-64 xl:80 absolute flex flex-col gap-2 justify-around items-center mb-5 px-8 pb-8 pt-6 rounded-xl border-2 border-solid border-black bg-stone-400 z-10";
 	const selectClasses =
 		"px-1 py-1 bg-stone-200 outline-none text-l focus:bg-stone-300 border-b border-b-solid border-b-stone-800 border-l border-l-solid border-l-stone-500"; // Twoje klasy CSS
 	const buttonClasses =
@@ -24,7 +24,7 @@ const LanguageSwitcher = ({ onLanguageChange }) => {
 
 	return (
 		<div className={containerClasses}>
-			<label className="text-3xl">Wybierz język</label>
+			<label className="text-xl md:text-2xl lg:text-3xl">Wybierz język</label>
 			<select
 				value={selectedLanguage}
 				onChange={handleChange}
