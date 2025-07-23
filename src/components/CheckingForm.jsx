@@ -46,7 +46,7 @@ export default function CheckingForm({ onUserLogin }) {
 					transform: !formVisible ? "rotateX(75deg)" : "rotateX(0deg)", // Zastosowanie transformacji
 					transition: "transform 1.5s ease-in-out", // Dodaj płynne przejście
 				}}
-				className={`rounded-xl flex flex-col px-10 py-1 pb-4 border-2 border-solid border-black bg-stone-400 ${
+				className={`relative max-h-[90vh] overflow-y-auto rounded-xl flex flex-col px-10 py-1 pb-4 border-2 border-solid border-black bg-stone-400 ${
 					formVisible ? "" : "w-64 md:w-80 lg:w-96 px-3 opacity-20 perspective-near pointer-events-none" // Przyciemnij i zablokuj formularz
 				}`}
 			>
