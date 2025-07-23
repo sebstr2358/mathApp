@@ -23,7 +23,7 @@ export default function TopicDetail() {
 	return (
 		<FlexContainer>
 			<ProjectSideBar />
-			<div className="relative flex flex-col w-8/12 h-max py-4 px-1.5 justify-center md:justify-start md:ms-4 items-start bg-stone-200">
+			<div className="relative flex flex-col w-8/12 h-max py-4 px-2 md:px-1.5 justify-center md:justify-start md:ms-4 items-start bg-stone-200">
 				<h2 className="text-xl uppercase text-stone-700 my-4">
 					{selectedTopic.topicTitle}
 				</h2>
