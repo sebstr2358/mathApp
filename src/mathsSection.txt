@@ -1,0 +1,172 @@
+{
+		id: 2,
+		title: "Potęgi i pierwiastki",
+		topics: {
+			topic1: "Mnożenie i dzielenie potęg o tej samej podstawie",
+			topic2: "Podnoszenie potęgi do potęgi",
+			topic3: "Potęga o wykładniku ujemnym",
+			topic4: "Pierwiastkowanie",
+			topic5: "Różne zadania z potęg i pierwiastków",
+		},
+	},
+	{
+		id: 3,
+		title: "Logarytmy",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 4,
+		title: "Procenty",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 5,
+		title: "Równania i nierówności liniowe",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 6,
+		title: "Funkcje",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 7,
+		title: "Funkcja liniowa",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 8,
+		title: "Funkcja kwadratowa",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 9,
+		title: "Wielomiany",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 10,
+		title: "Funkcja wymierna",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 11,
+		title: "Funkcja wykładnicza",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 12,
+		title: "Ciągi",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 13,
+		title: "Trygonometria",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 14,
+		title: "Geometria analityczna",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 15,
+		title: "Geometria płaska",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 16,
+		title: "Geometria przestrzenna",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 17,
+		title: "Rachunek prawdopodobieństwa",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+    {
+		id: 18,
+		title: "Statystyka",
+		topics: {
+			topic1: "Obliczanie logarytmów",
+			topic2: "Dodawanie i odejmowanie logarytmów",
+			topic3: "Logarytm w wykładniku potęgi",
+			topic5: "Różne zadania z logarytmów",
+		},
+	},
+]
