@@ -14,7 +14,7 @@
 <p>Users have the option to choose between Polish and English languages for a tailored learning experience.</p>
 
 ## Live
-https://math-mature-app.netlify.app/
+mature-app.netlify.app
 <sub> <-- The platform can be used on all types of devices</sub>
 
 ## Technologies
