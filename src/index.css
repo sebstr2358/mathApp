@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.break-words {
+    overflow-wrap: break-word; /* Przenosi wyrazy w odpowiednich miejscach */
+    word-break: break-word; /* alternatywnie */
+    white-space: normal; /* Umożliwia przenoszenie tekstu na nową linię */
+}

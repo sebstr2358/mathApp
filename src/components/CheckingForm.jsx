@@ -47,7 +47,9 @@ export default function CheckingForm({ onUserLogin }) {
 					transition: "transform 1.5s ease-in-out", // Dodaj płynne przejście
 				}}
 				className={`relative max-h-[90vh] overflow-y-auto rounded-xl flex flex-col px-10 py-1 pb-4 border-2 border-solid border-black bg-stone-400 ${
-					formVisible ? "" : "w-64 md:w-80 lg:w-96 px-3 opacity-20 perspective-near pointer-events-none" // Przyciemnij i zablokuj formularz
+					formVisible
+						? ""
+						: "w-64 md:w-80 lg:w-96 px-3 opacity-20 perspective-near pointer-events-none" // Przyciemnij i zablokuj formularz
 				}`}
 			>
 				<header className="mb-8 py-2 flex flex-col justify-center items-center">
@@ -68,7 +70,6 @@ export default function CheckingForm({ onUserLogin }) {
 					{...register("name", {
 						required: translations_form[language].usernameRequired,
 						maxLength: {
-							value: 5,
 							message: translations_form[language].usernameMaxLength,
 						},
 					})}
@@ -85,7 +86,7 @@ export default function CheckingForm({ onUserLogin }) {
 					{...register("email", {
 						required: translations_form[language].emailRequired,
 						pattern: {
-							value: /^[a-z0-9]+\.?[a-z0-9]+@[a-z]+\.[a-z]{2,3}$/,
+							value: /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/,
 							message: translations_form[language].emailPattern,
 						},
 					})}

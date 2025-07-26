@@ -19,12 +19,20 @@ export default function ProjectSideBar() {
 				<h2 className="uppercase font-bold mt-10 xl:mt-0 mb-1 text-xl">
 					{translations_sidebar[language].h2}
 				</h2>
-				<ul className="list-disc px-2">
+				<ul className="list-disc ps-1.5 sm:ps-2 md:ps-2.5">
 					{mathSections.map((section) => (
-						<li className="ms-0.5 md:ms-2 py-1 md:py-0.5" key={section.id}>
+						<li
+							className="ms-0.5 md:ms-2 py-1 md:py-0.5 hover:text-blue-400"
+							key={section.id}
+						>
 							<NavLink
 								to={`/main/${section.path}`}
-								className="flex text-start wrap" // Styluj NavLink jak przycisk
+								className={
+									({ isActive }) =>
+										`flex text-start wrap ${
+											isActive ? "text-blue-500 font-bold" : ""
+										} overflow-wrap break-words` // Dodano tutaj
+								}
 							>
 								{section.title}
 							</NavLink>
